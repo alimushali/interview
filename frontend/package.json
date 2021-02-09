@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --mode development --env development",
+    "build": "webpack --mode production --env NODE_ENV=django"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.4.0",
+    "@mdi/font": "^5.9.55",
+    "vuex": "^3.6.2",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "html-webpack-plugin": "^4.5.0",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.2.0",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.0.5",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "mini-css-extract-plugin": "^1.3.0"
+  }
+}
